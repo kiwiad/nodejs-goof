@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - dustjs-linkedin > chokidar > readdirp > micromatch > snapdragon > debug:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > braces > snapdragon > debug:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > snapdragon > debug:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2022-02-21T13:04:08.235Z'
+  SNYK-JS-LODASH-567746:
+    - tap > nyc > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-02-21T13:04:08.235Z'
+  'npm:ms:20170412':
+    - dustjs-linkedin > chokidar > readdirp > micromatch > snapdragon > debug > ms:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > braces > snapdragon > debug > ms:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2022-02-21T13:04:08.235Z'
+    - dustjs-linkedin > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2022-02-21T13:04:08.235Z'
